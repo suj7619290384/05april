@@ -1,0 +1,36 @@
+'''basic=int(input("enter basic salary"))
+ta=basic*0.10
+da=basic*0.12
+gross=ta+da+basic
+print("gross is",gross)'''
+
+'''def gross(basics):
+    ta=basics*0.10
+    da=basics*0.12
+    gross=ta+da+basics
+    print(gross)
+basic=int(input("enter basic"))
+print(gross(basic))'''
+
+'''x=int(input("enter a number"))
+if x%2==0:
+    print("its even")
+else:
+    print("its odd")'''
+    
+    
+'''x=int(input("enter 1st number"))
+y=int(input("enter 2nd number"))
+z=int(input("enter 3rd number"))
+if x > y:
+    if y > z:
+        print(f"1st is greater:{x}")
+    elif z > x:
+        print(f"3rd is greater:{z}")
+elif y > z:
+    print(f"2nd is greater:{y}")
+else:
+    print(f"3rd is greater:{z}")'''
+    
+'''x=int(input("enter a no. to reverse:"))
+print(str(x)[::-1])'''
